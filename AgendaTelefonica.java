@@ -26,4 +26,11 @@ public class AgendaTelefonica
        return (agenda.get(name));//buscamos y devolvemos un numero
    }
    
+   /**
+   * Print all keys
+   */
+  public void printAllNames()
+  {
+     System.out.println(agenda.keySet()); // Devuelve una "Collection" con los valores del keys
+  }
 }
