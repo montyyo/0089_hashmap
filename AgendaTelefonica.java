@@ -2,12 +2,12 @@ import java.util.HashMap; // importacion de libreria
 
 public class AgendaTelefonica
 {
-   private HashMap<String,String> Agenda;
+   private HashMap<String,String> agenda;
    
    //constructo de hashmap
    public AgendaTelefonica()
    {
-       this.Agenda = new HashMap<>();
+       this.agenda = new HashMap<>();
    }
    
    /**
@@ -15,7 +15,7 @@ public class AgendaTelefonica
     */
    public void enterNumber(String name, String number)
    {
-     Agenda.put(name,number);
+     agenda.put(name,number); //añadicmos un nuevo numero 
    }
    
    /**
@@ -23,7 +23,7 @@ public class AgendaTelefonica
     */
    public String lookupNumber(String name)
    {
-       return (Agenda.get(name));
+       return (agenda.get(name));//buscamos y devolvemos un numero
    }
    
 }
