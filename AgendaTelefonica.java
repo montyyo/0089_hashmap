@@ -12,6 +12,9 @@ public class AgendaTelefonica
    
    /**
     * nueva numero y persona en la agenda
+    * @param name nombre  para persona 
+    * @param number numero de telefono para la persona
+    * @return 
     */
    public void enterNumber(String name, String number)
    {
@@ -20,6 +23,8 @@ public class AgendaTelefonica
    
    /**
     * busqueda de nombre
+    * @param name nombre que queremos buscar
+    * @return devuelve el numero de la persona si existe en lista
     */
    public String lookupNumber(String name)
    {
@@ -28,6 +33,8 @@ public class AgendaTelefonica
    
    /**
    * Print all keys
+   * @param 
+   * @return devuelve todos los nombres de la lista
    */
   public void printAllNames()
   {
