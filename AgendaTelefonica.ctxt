@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.params=
 comment0.target=AgendaTelefonica()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AgendaTelefonica\r\n\ @param\r\n\ @return\r\n
 comment1.params=name\ number
 comment1.target=void\ enterNumber(java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ nueva\ numero\ y\ persona\ en\ la\ agenda\r\n\ @param\ name\ nombre\ \ para\ persona\ \r\n\ @param\ number\ numero\ de\ telefono\ para\ la\ persona\r\n\ @return\ \r\n

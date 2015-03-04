@@ -1,10 +1,22 @@
 import java.util.HashMap; // importacion de libreria
 
+
+/**
+ * Write a description of class AgendaTelefonica here.
+ * 
+ * @author (marco) 
+ * @version (1 - 04/03/2015)
+ */
 public class AgendaTelefonica
 {
    private HashMap<String,String> agenda;
    
    //constructo de hashmap
+   /**
+     * Constructor for objects of class AgendaTelefonica
+     * @param
+     * @return
+     */
    public AgendaTelefonica()
    {
        this.agenda = new HashMap<>();
